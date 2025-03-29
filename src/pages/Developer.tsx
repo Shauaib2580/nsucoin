@@ -1,11 +1,12 @@
 import myPicture from '../assets/Shauaib.jpg'; // Your profile image path
-import coin from '../assets/coin.png'; // Adjust the path to your coin image
-import dollar from '../assets/Mycurrency.png'; // Adjust the path to your dollar image
+import coin from '../assets/coin.png'; // Coin image
+import dollar from '../assets/Mycurrency.png'; // Dollar image
+
 const Developer: React.FC = () => {
   return (
     <div className="container mx-auto p-6">
       <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
-        Meet the NSU Coin Developer
+        Meet the NSU Coin (নসু কয়েন) Developer
       </h1>
       <p className="text-lg text-gray-700 mb-8 text-center">
         Learn about the brilliant mind behind NSU Coin, driving innovation in
@@ -15,35 +16,34 @@ const Developer: React.FC = () => {
       <div className="bg-white p-6 rounded-lg shadow-lg text-center">
         <img
           src={coin}
-          className="h-[200px] w-[200px] mx-auto mb-4" // Centered with mx-auto
+          className="h-[200px] w-[200px] mx-auto mb-4"
           alt="NSU Coin Logo"
         />
         <h2 className="text-2xl font-semibold text-blue-800 mb-4">
-          Lead Developer: [Shauaib Siddique Shawon]
+          Lead Developer: Shauaib Siddique Shawon
         </h2>
         <img
           src={myPicture}
-          alt="[Your Name]"
-          className="w-[400px] h-[400px] border-amber-400 border-4 rounded-full  mx-auto mb-4 object-cover shadow-md"
+          alt="Shauaib Siddique Shawon"
+          className="w-[400px] h-[400px] border-amber-400 border-4 rounded-full mx-auto mb-4 object-cover shadow-md"
         />
         <p className="text-gray-600 max-w-2xl mx-auto">
-          I’m the creator of NSU Coin, passionate about blockchain technology
-          and building a decentralized future. With expertise in software
-          engineering and cryptography, I’ve dedicated myself to making NSU Coin
-          a secure, scalable, and community-driven cryptocurrency.
+          I’m the creator of NSU Coin (নসু কয়েন), passionate about blockchain
+          technology and building a decentralized future. With expertise in
+          software engineering and cryptography, I’ve dedicated myself to making
+          NSU Coin a secure, scalable, and community-driven cryptocurrency.
         </p>
         <p className="mt-5 text-2xl font-semibold text-blue-800 mb-4">
-          {' '}
-          Founder of Shallar( Shauaib's Dollar) <br />{' '}
+          Founder of Shallar (Shauaib's Dollar) <br />
         </p>
         <img
           src={dollar}
-          className="border-amber-400 border-4 mx-auto mt-10 max-w-2xl"
-          alt=""
+          className="w-full sm:w-3/4 md:w-1/2 lg:max-w-2xl border-amber-400 border-4 mx-auto mt-10"
+          alt="Shallar Currency"
         />
-        <div className="flex justify-center space-x-6 mt-6">
+        <div className="flex justify-center space-x-1 mt-6">
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/shauaib-siddique-shawon/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-900 text-white px-4 py-2 rounded-full hover:bg-blue-700"
@@ -51,7 +51,7 @@ const Developer: React.FC = () => {
             LinkedIn
           </a>
           <a
-            href="https://facebook.com/yourprofile"
+            href="https://www.facebook.com/shauaibsiddique/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-900 text-white px-4 py-2 rounded-full hover:bg-blue-700"
@@ -59,7 +59,7 @@ const Developer: React.FC = () => {
             Facebook
           </a>
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/Shauaib2580"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-900 text-white px-4 py-2 rounded-full hover:bg-blue-700"

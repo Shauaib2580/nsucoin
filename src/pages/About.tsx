@@ -2,12 +2,12 @@ const About: React.FC = () => {
   return (
     <div className="container mx-auto p-6">
       <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
-        About NSU Coin
+        About NSU Coin (নসু কয়েন)
       </h1>
       <p className="text-lg text-gray-700 mb-8 text-center">
-        Discover the story behind NSU Coin, a cryptocurrency designed to
-        redefine the digital economy with innovation, transparency, and
-        inclusivity.
+        Discover the story behind NSU Coin (নসু কয়েন) , a cryptocurrency
+        designed to redefine the digital economy with innovation, transparency,
+        and inclusivity.
       </p>
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-blue-800 mb-4">

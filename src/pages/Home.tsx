@@ -55,10 +55,10 @@ const Home: React.FC = () => {
   return (
     <div className="container mx-auto p-6">
       <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
-        Welcome to NSU Coin{' '}
+        Welcome to NSU Coin (নসু কয়েন) {' '}
         <img
           src={coin}
-          className="h-[80px] w-[80px] mx-auto mt-4" // Centered with mx-auto
+          className="h-[200px] w-[200px] mx-auto mt-4" // Centered with mx-auto
           alt="NSU Coin Logo"
         />
       </h1>

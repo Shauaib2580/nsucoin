@@ -1,16 +1,16 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer'; // Import the new Footer
 import Home from './pages/Home';
 import About from './pages/About';
 import Market from './pages/Market';
 import Developer from './pages/Developer';
 import Contact from './pages/Contact';
-import favicon from './assets/coin.png'; // Adjust the path and extension
+import favicon from './assets/coin.png'; // Your favicon
 
 const App: React.FC = () => {
   useEffect(() => {
-    // Dynamically set the favicon
     const link = document.querySelector(
       "link[rel*='icon']"
     ) as HTMLLinkElement | null;
@@ -26,9 +26,9 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100">
+      <div className="flex flex-col min-h-screen bg-gray-100">
         <Navbar />
-        <div className="pt-20">
+        <main className="flex-grow pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -36,7 +36,8 @@ const App: React.FC = () => {
             <Route path="/developer" element={<Developer />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </div>
+        </main>
+        <Footer /> {/* Add Footer here */}
       </div>
     </Router>
   );
