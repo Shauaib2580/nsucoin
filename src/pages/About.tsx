@@ -1,9 +1,15 @@
+import coin from '../assets/coin.png';
 const About: React.FC = () => {
   return (
     <div className="container mx-auto p-6">
       <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
         About NSU Coin (নসু কয়েন)
       </h1>
+      <img
+        src={coin}
+        className="h-[200px] w-[200px] mx-auto mt-4 mb-4" // Centered with mx-auto
+        alt="NSU Coin Logo"
+      />
       <p className="text-lg text-gray-700 mb-8 text-center">
         Discover the story behind NSU Coin (নসু কয়েন) , a cryptocurrency
         designed to redefine the digital economy with innovation, transparency,

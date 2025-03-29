@@ -1,9 +1,15 @@
+import coin from '../assets/coin.png';
 const Market: React.FC = () => {
   return (
     <div className="container mx-auto p-6">
       <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
-        NSU Coin Market
+        NSU Coin (নসু কয়েন) Market
       </h1>
+      <img
+        src={coin}
+        className="h-[200px] w-[200px] mx-auto mt-4 mb-4" // Centered with mx-auto
+        alt="NSU Coin Logo"
+      />
       <p className="text-lg text-gray-700 mb-8 text-center">
         Explore the latest trends, tokenomics, and market insights for NSU Coin.
         (All data is fictional for demonstration purposes.)

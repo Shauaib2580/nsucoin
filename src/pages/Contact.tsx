@@ -1,9 +1,15 @@
+import coin from '../assets/coin.png';
 const Contact: React.FC = () => {
   return (
     <div className="container mx-auto p-6">
       <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
-        Contact NSU Coin
+        Contact NSU Coin (নসু কয়েন)
       </h1>
+      <img
+        src={coin}
+        className="h-[200px] w-[200px] mx-auto mt-4 mb-4" // Centered with mx-auto
+        alt="NSU Coin Logo"
+      />
       <p className="text-lg text-gray-700 mb-8 text-center">
         Have questions or want to get involved? Reach out to us—we’d love to
         hear from you!
